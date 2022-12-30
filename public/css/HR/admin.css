@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Gilda+Display&family=Montserrat:wght@500&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw !important;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar {
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #780000;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.logo-container {
+    justify-self: center !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 235px;
+    height: 100px;
+    object-fit: cover;
+}
+.menu-button {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-self: end;
+    align-items: center;
+    gap: 1rem;
+    height: inherit;
+    font-family: "Montserrat", sans-serif;
+}
+.menu-button h3 {
+    font-size: 0.75rem;
+}
+.menu-button img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+.main {
+    margin-top: 100px;
+    height: fit-content;
+}
+.side-nav {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.side-btn {
+    background-color: #d9d9d9;
+    padding: 3rem;
+    color: #333;
+    border: none;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.side-btn:hover {
+    background-color: #bdbdbd;
+    color: #333;
+}

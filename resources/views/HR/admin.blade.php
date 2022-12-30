@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome icons cdn link -->
+    <script src="https://kit.fontawesome.com/db540a34d6.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/HR/admin.css">
+    <title>ADMIN</title>
+</head>
+
+<body>
+    <nav class="nav-bar w-100 p-0 m-0">
+
+        <div class="back">
+            <a href="student"> <button class="btn btn-outline-light"><i class="fa-solid fa-arrow-left"></i></button></a>
+        </div>
+        <div class="logo-container">
+            <img src="images/ES_LOGO.png" class="logo-img" alt="">
+        </div>
+        <div class="menu-button w-25 pe-2">
+            <img src="images/teen.png" alt="">
+            <h4 class="name">JOHN LENNIN</h4>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="side-nav w-25">
+            <div class="btn-holder w-100">
+                <button class="side-btn active-btn" id="dash-btn">
+                    <i class="fa-solid fa-warehouse font-large"></i>
+                    DASHBOARD
+                </button>
+                <button class="side-btn" id="user-btn">
+                    <i class="fa-solid font-large fa-users"></i>
+                    STUDENTS
+                </button>
+                <button class="side-btn" id="products-btn">
+                    <i class="fa-solid font-large fa-boxes-packing"></i>
+                    STAFF
+                </button>
+                <button class="side-btn" id="profile-btn">
+                    <i class="fa-solid font-large fa-address-card"></i>
+                    REQUESTS
+                </button>
+            </div>
+            <div class="logout px-4 w-100">
+                <a href="../logout.php">
+                    <button class="btn-logout w-100">
+                        LOGOUT
+                    </button>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
