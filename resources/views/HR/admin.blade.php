@@ -16,10 +16,6 @@
 
 <body>
     <nav class="nav-bar w-100 p-0 m-0">
-
-        <div class="back">
-            <a href="student"> <button class="btn btn-outline-light"><i class="fa-solid fa-arrow-left"></i></button></a>
-        </div>
         <div class="logo-container">
             <img src="images/ES_LOGO.png" class="logo-img" alt="">
         </div>
@@ -29,12 +25,12 @@
         </div>
     </nav>
 
-    <section class="main">
+    <section class="main w-100">
         <div class="side-nav w-25">
             <div class="btn-holder w-100">
                 <button class="side-btn active-btn" id="dash-btn">
                     <i class="fa-solid fa-warehouse font-large"></i>
-                    DASHBOARD
+                    COURSE MANAGEMENT
                 </button>
                 <button class="side-btn" id="user-btn">
                     <i class="fa-solid font-large fa-users"></i>
@@ -48,18 +44,81 @@
                     <i class="fa-solid font-large fa-address-card"></i>
                     REQUESTS
                 </button>
-            </div>
-            <div class="logout px-4 w-100">
-                <a href="../logout.php">
-                    <button class="btn-logout w-100">
+                <a href="" class="w-100">
+                    <button class="side-btn btn-logout w-100">
                         LOGOUT
                     </button>
                 </a>
-
             </div>
-
+        </div>
+        <div class="panel-section w-75 p-2">
+            <div class="panel w-100" id="1">
+                <div class="units-list w-100 p-2">
+                    <div class="units-head w-100">
+                        <h3 class="p-0 m-0">UNITS LIST</h3>
+                    </div>
+                    <hr class="w-100">
+                    <div class="users-tbl w-100">
+                        <table class="w-100">
+                            <thead class="table-thead">
+                                <tr>
+                                    <th>#</th>
+                                    <th>USERNAME</th>
+                                    <th>NAME</th>
+                                    <th>EMAIL</th>
+                                    <th>OPTIONS</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody">
+                                <tr class="w-100">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="units-list w-100 p-2">
+                    <div class="units-head w-100">
+                        <h3 class="p-0 m-0">UNITS REGISTRATION REQUESTS</h3>
+                    </div>
+                    <hr class="w-100">
+                </div>
+            </div>
         </div>
     </section>
+    <footer class="footer-section w-100">
+        <div class="upper-foot w-100">
+            <a href="">CALENDERS</a>
+            <a href="">CONTACT</a>
+            <a href="">PRIVACY POLICIES</a>
+        </div>
+        <div class="lower-foot w-100">
+            <div class="logo-display">
+                <span class="line"></span>
+                <img src="images/ES_white.png" alt="">
+                <span class="line"></span>
+            </div>
+            <h3>SUGOI, BONDO WEST DISTRICT, MAZRAWI/P.O. BOX 5100-0011</h3>
+            <div class="socials-container">
+                <div class="round">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="round">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="round">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="round">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
